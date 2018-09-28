@@ -1,0 +1,14 @@
+{
+    "manifest_version": 2,
+    "name": "Lulu is Love",
+    "description": "The most popular guy in the world",
+    "version": "1",
+    "author": "Lucas Victor",
+   "browser_action": {
+      "default_title": "Have a good day"
+    },
+   "chrome_url_overrides" : {
+     "newtab": "newtab.html"
+   },
+    "permissions": ["activeTab"]
+   }

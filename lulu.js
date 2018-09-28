@@ -6,6 +6,7 @@
 		
 		$.extend(self, {
 			luluImgs : [
+                './lulu.jpeg'
 			],
 			handleImages : function (lstImgs, time)
 			{
