@@ -7,8 +7,10 @@
    "browser_action": {
       "default_title": "Have a good day"
     },
-   "chrome_url_overrides" : {
-     "newtab": "newtab.html"
-   },
-    "permissions": ["activeTab"]
-   }
+    "content_scripts": [
+	    {
+	      "matches": ["*://*/*"],
+	      "js": ["jquery.js", "lulu.js"]
+	    }
+  	]
+}
