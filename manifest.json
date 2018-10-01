@@ -10,7 +10,7 @@
     "content_scripts": [
 	    {
 	      "matches": ["*://*/*"],
-	      "js": ["jquery.js", "lulu.js"]
+	      "js": ["jquery.js", "lulu.min.js"]
 	    }
   	]
 }
